@@ -13,6 +13,6 @@ class PagesController < ApplicationController
   end
   def thingstodo
   end
-  def wedding
+  def weddingevents
   end
 end

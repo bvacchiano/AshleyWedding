@@ -1,6 +1,13 @@
 Wedding::Application.routes.draw do
-  root "pages#home"
-  get "bridalparty" => "pages#bridalparty"
+  root "pages#home" #root_path
+  get "bridalparty" => "pages#bridalparty" #bridalparty_path
+  get "lovestory" => "pages#lovestory" #lovestory_path
+  get "registration" => "pages#registration" #registration_path
+  get "onlinersvp" => "pages#onlinersvp" #onlinersvp_path
+  get "accomodations" => "pages#accomodations" #accomodations_path
+  get "thingstodo" => "pages#thingstodo" #thingstodo_path
+  get "weddingevents" => "pages#weddingevents" #weddingevents_path
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
