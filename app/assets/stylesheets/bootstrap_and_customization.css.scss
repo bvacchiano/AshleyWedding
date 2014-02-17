@@ -7,10 +7,12 @@ body
 .jumbotron
 {
 	background-image: image-url('header/header.jpg');
-	height: 375px;
+	height: 300px;
 }
 
 $jumbotron-color: #ffffff;
 $container-lg: 800px;
+$container-tablet: 800px;
+$container-md: 800px;
 
 @import 'bootstrap';
