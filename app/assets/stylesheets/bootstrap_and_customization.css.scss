@@ -1,1 +1,16 @@
+body
+{
+	background-image: image-url('background/tileable_wood_texture.png');
+}
+
+
+.jumbotron
+{
+	background-image: image-url('header/header.jpg');
+	height: 375px;
+}
+
+$jumbotron-color: #ffffff;
+$container-lg: 800px;
+
 @import 'bootstrap';
