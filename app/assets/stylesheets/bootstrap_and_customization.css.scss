@@ -11,6 +11,20 @@ body
 	background-image: image-url('header/header.jpg');
 	height: 300px;
 	font-family: 'Glass Antiqua', Helvetica, Arial, sans-serif;
+	margin-top: 20px;
+	margin-bottom: 20px !important;
+	h2
+	{
+		display:inline-block;
+		margin-top: 0px !important;
+		margin-bottom: 0px !important;
+		font-size: 30px;
+		padding-right: 25px;
+	}
+	h1
+	{
+		margin-bottom: 0px;
+	}
 }
 
 .col-md-8
@@ -18,9 +32,15 @@ body
 	border-style: dashed;
 	border-width: 2px;
 	border-radius: 5px;
+	background-color: #F5F5F5;
 	h2
 	{
 		font-family: 'Glass Antiqua', Helvetica, Arial, sans-serif;	
+	}
+	p
+	{
+		text-align: justify;
+		padding-top: 10px;
 	}
 }
 
@@ -46,7 +66,7 @@ body
 
 $jumbotron-color: #ffffff;
 $container-lg: 800px;
-$container-tablet: 800px;
+$container-tablet: 670px;
 $container-md: 800px;
 
 @import 'bootstrap';
