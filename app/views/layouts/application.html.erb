@@ -5,16 +5,13 @@
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<%= link_to "Bridal Party", bridalparty_path %>
-	<%= link_to "Love Story", lovestory_path %>
-	<%= link_to "Wedding Registration", registration_path %>
-	<%= link_to "RSVP", onlinersvp_path %>
-	<%= link_to "Accomodations", accomodations_path %>
-	<%= link_to "Things To Do", thingstodo_path %>
-	<%= link_to "Wedding Events", weddingevents_path %>
-<%= yield %>
+	<div class="container">
+		<%= render 'layouts/header' %>
+		<%= yield %>
+	</div>
 
 </body>
 </html>
