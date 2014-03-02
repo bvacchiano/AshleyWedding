@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Wedding</title>
+  <title>A & M Wedding</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
@@ -11,7 +11,12 @@
 	<div class="container">
 		<%= render 'layouts/header' %>
 		<%= yield %>
-	<footer><center><span class="glyphicon glyphicon-heart-empty" ></span>Designed with love by Brittany Vacchiano</center></footer>
+	<footer>
+		<center>
+			<%= image_tag("homepage/banner2.png", class: "img-responsive" ,style: "padding-bottom:15px") %>
+			<span class="glyphicon glyphicon-heart-empty" ></span>Designed with love by Brittany Vacchiano
+		</center>
+	</footer>
 	</div>
 
 </body>
