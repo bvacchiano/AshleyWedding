@@ -16,3 +16,5 @@ class PagesController < ApplicationController
   def weddingevents
   end
 end
+
+@time_left = Time.now.to_i - 3.hours.to_i

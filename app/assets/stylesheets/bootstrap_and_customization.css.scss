@@ -2,7 +2,12 @@
 
 body
 {
-	background-image: image-url('background/tileable_wood_texture.png');
+	background-image: image-url('background/arches.png');
+}
+
+.navbar
+{
+	margin-top:20px;
 }
 
 
@@ -29,10 +34,11 @@ body
 
 .col-md-8
 {
-	border-style: dashed;
+	border-style: solid;
+	border-color: #666362;
 	border-width: 2px;
 	border-radius: 5px;
-	background-color: #F5F5F5;
+	background-color: #FFFFF0;
 	h2
 	{
 		font-family: 'Glass Antiqua', Helvetica, Arial, sans-serif;	
@@ -49,6 +55,15 @@ body
 	h2
 	{
 		font-family: 'Glass Antiqua', Helvetica, Arial, sans-serif;	
+	}
+	.row
+	{
+		margin-top: 15px;
+		border-style: solid;
+		border-color: #666362;
+		border-width: 2px;
+		border-radius: 5px;
+		background-color: #FFFFF0;
 	}
 }
 
@@ -68,5 +83,7 @@ $jumbotron-color: #ffffff;
 $container-lg: 800px;
 $container-tablet: 670px;
 $container-md: 800px;
+$navbar-default-bg: #666362;
+$navbar-default-link-color: #ffffff;
 
 @import 'bootstrap';
