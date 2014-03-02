@@ -10,13 +10,18 @@ body
 	margin-top:20px;
 }
 
+.container .jumbotron
+{
+	
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+}
 
 .jumbotron
 {
 	background-image: image-url('header/header.jpg');
 	height: 300px;
 	font-family: 'Glass Antiqua', Helvetica, Arial, sans-serif;
-	margin-top: 20px;
 	margin-bottom: 20px !important;
 	h2
 	{
@@ -30,6 +35,12 @@ body
 	{
 		margin-bottom: 0px;
 	}
+}
+
+footer
+{
+	margin-top:7px;
+	margin-bottom: 7px;
 }
 
 .col-md-8
