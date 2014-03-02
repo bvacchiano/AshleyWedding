@@ -5,11 +5,6 @@ body
 	background-image: image-url('background/arches.png');
 }
 
-.navbar
-{
-	margin-top:20px;
-}
-
 .gold
 {
 	color: #D4A017;
@@ -20,6 +15,8 @@ body
 	
 	border-top-left-radius: 0px !important;
 	border-top-right-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
 }
 
 .jumbotron
@@ -27,7 +24,7 @@ body
 	background-image: image-url('header/header.jpg');
 	height: 300px;
 	font-family: 'Glass Antiqua', Helvetica, Arial, sans-serif;
-	margin-bottom: 20px !important;
+	margin-bottom: 0px !important;
 	h2
 	{
 		display:inline-block;
@@ -40,6 +37,12 @@ body
 	{
 		margin-bottom: 0px;
 	}
+}
+
+.navbar
+{
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
 }
 
 footer
@@ -66,6 +69,17 @@ footer
 	}
 }
 
+.navbar-default
+{
+	border-color: #666362 !important;
+	border-width: 2px !important;
+}
+
+li
+{
+	padding:1px;
+}
+
 .col-md-4
 {
 	h2
@@ -86,7 +100,8 @@ footer
 .row
 {
 	margin-left: 0px !important;
-	margin-right: 0px !important; 
+	margin-right: 0px !important;
+	margin-bottom: 15px;
 }
 
 .glyphicon
@@ -99,7 +114,7 @@ $jumbotron-color: #ffffff;
 $container-lg: 800px;
 $container-tablet: 670px;
 $container-md: 800px;
-$navbar-default-bg: #666362;
-$navbar-default-link-color: #ffffff;
+$navbar-default-bg: #FFFFF0;
+
 
 @import 'bootstrap';

@@ -3,11 +3,7 @@
   <h2>12-13-14</h2>
   <h2>Raleigh, North Carolina </h2>
 </div>
-<div class="row">
-  <div class"col-md-12">
-    <center><%= image_tag("homepage/banner.png", class: "img-responsive" ) %></center>
-  </div>
-</div>
+
 <nav class="navbar navbar-default" role="navigation">
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
@@ -28,7 +24,13 @@
       <li><%= link_to "Accomodations", accomodations_path %></li>
       <li><%= link_to "Things To Do", thingstodo_path %></li>
       <li><%= link_to "Wedding Events", weddingevents_path %></li>
-      <li><%= link_to "Bridal Party", weddingevents_path %></li>
+      <li><%= link_to "Bridal Party", bridalparty_path %></li>
     </ul>
   </div><!-- /.navbar-collapse -->
 </nav>
+
+<div class="row">
+  <div class"col-md-12">
+    <center><%= image_tag("homepage/banner.png", class: "img-responsive" ) %></center>
+  </div>
+</div>
