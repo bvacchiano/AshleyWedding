@@ -111,8 +111,22 @@ li
 
 #bridalpic
 {
-	margin-top: 20px;
+	display: inline-block !important;
+	vertical-align:center !important;
 	margin-bottom: 20px;
+}
+
+footer
+{
+	.col-md-12
+	{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	p
+	{
+		margin-top: 10px;
+	}
 }
 
 
@@ -121,7 +135,5 @@ $container-lg: 800px;
 $container-tablet: 670px;
 $container-md: 800px;
 $navbar-default-bg: #FFFFF0;
-$component-active-color: #000000;
-
 
 @import 'bootstrap';
