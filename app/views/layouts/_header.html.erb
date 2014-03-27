@@ -18,13 +18,13 @@
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse navbar-ex1-collapse">
     <ul class="nav navbar-nav">
-      <li><%= link_to "Home", root_path %></li>
-      <li><%= link_to "Registration", registration_path %></li>
-      <li><%= link_to "RSVP", rsvp_path %></li>
-      <li><%= link_to "Accomodations", accomodations_path %></li>
-      <li><%= link_to "Things To Do", thingstodo_path %></li>
-      <li><%= link_to "Wedding Events", weddingevents_path %></li>
-      <li><%= link_to "Bridal Party", bridalparty_path %></li>
+      <li class="<%= 'active' if current_page?(root_path) %>"><%= link_to "Home", root_path %></li>
+      <li class="<%= 'active' if current_page?(registration_path) %>"><%= link_to "Registration", registration_path %></li>
+      <li class="<%= 'active' if current_page?(rsvp_path) %>"><%= link_to "RSVP", rsvp_path %></li>
+      <li class="<%= 'active' if current_page?(accomodations_path) %>"><%= link_to "Accomodations", accomodations_path %></li>
+      <li class="<%= 'active' if current_page?(thingstodo_path) %>"><%= link_to "Things To Do", thingstodo_path %></li>
+      <li class="<%= 'active' if current_page?(weddingevents_path) %>"><%= link_to "Wedding Events", weddingevents_path %></li>
+      <li class="<%= 'active' if current_page?(bridalparty_path) %>"><%= link_to "Bridal Party", bridalparty_path %></li>
     </ul>
   </div><!-- /.navbar-collapse -->
 </nav>
