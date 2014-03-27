@@ -12,12 +12,14 @@
 	<div class="container">
 		<%= render 'layouts/header' %>
 		<%= yield %>
-	<footer>
-		<center>
-			<%= image_tag("homepage/banner2.png", class: "img-responsive" ,style: "padding-bottom:15px") %>
-			<span class="glyphicon glyphicon-heart-empty" ></span>Designed with love by Brittany Vacchiano
-		</center>
-	</footer>
+		<footer>
+			<div class="col-md-12">
+				<center>
+					<%= image_tag("homepage/banner2.png", class: "img-responsive") %>
+					<span class="glyphicon glyphicon-heart-empty" ></span>Designed with love by Brittany Vacchiano
+				</center>
+			</div>
+		</footer>
 	</div>
 </body>
 </html>

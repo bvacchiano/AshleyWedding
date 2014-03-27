@@ -3,7 +3,7 @@ Wedding::Application.routes.draw do
   get "bridalparty" => "pages#bridalparty" #bridalparty_path
   get "lovestory" => "pages#lovestory" #lovestory_path
   get "registration" => "pages#registration" #registration_path
-  get "onlinersvp" => "pages#onlinersvp" #onlinersvp_path
+  get "rsvp" => "pages#rsvp" #onlinersvp_path
   get "accomodations" => "pages#accomodations" #accomodations_path
   get "thingstodo" => "pages#thingstodo" #thingstodo_path
   get "weddingevents" => "pages#weddingevents" #weddingevents_path

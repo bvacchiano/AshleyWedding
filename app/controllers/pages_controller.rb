@@ -7,7 +7,7 @@ class PagesController < ApplicationController
   end
   def registration
   end
-  def onlinersvp
+  def rsvp
   end
   def accomodations
   end
@@ -16,5 +16,3 @@ class PagesController < ApplicationController
   def weddingevents
   end
 end
-
-@time_left = Time.now.to_i - 3.hours.to_i
