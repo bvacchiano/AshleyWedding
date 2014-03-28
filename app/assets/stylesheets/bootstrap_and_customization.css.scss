@@ -69,6 +69,25 @@ footer
 	}
 }
 
+.col-md-5
+{
+	border-style: solid;
+	border-color: #666362;
+	border-width: 2px;
+	border-radius: 5px;
+	background-color: #FFFFF0;
+	margin-top: 10px;
+	h2
+	{
+		font-family: 'Glass Antiqua', Helvetica, Arial, sans-serif;	
+	}
+	p
+	{
+		text-align: justify;
+		padding-top: 10px;
+	}
+}
+
 .navbar-default
 {
 	border-color: #666362 !important;
