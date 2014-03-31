@@ -135,9 +135,67 @@ li
 	padding-right: 10px;
 }
 
-#bridalpic
+@media (max-width: 993px)
 {
-	margin-bottom: 20px;
+	.bridalpic
+	{
+		margin-bottom: 20px;
+	}
+}
+
+@media (min-width: 993px)
+{
+	#katie img
+	{
+		margin-top: 15px;
+	}
+
+	#jacqui
+	{
+		div.col-md-4
+        {
+        	float: right;
+        }
+		img
+		{
+			margin-top: 35px;
+		}
+	}
+
+	#elyse img
+	{
+		margin-top: 40px;
+	}
+
+	#cathy
+	{
+	    div.col-md-4
+	    {
+	        float: right;
+	    }
+        img
+        {
+    		margin-top: 40px;
+        }
+	}
+	#brittany
+	{
+		div.col-md-4
+        {
+        	float: right;
+        }
+		img
+		{
+			margin-top: 90px;
+		}
+	}
+	#melissa
+	{
+		img
+		{
+			margin-top: 25px;
+		}
+	}
 }
 
 footer
