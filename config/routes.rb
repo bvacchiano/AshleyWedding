@@ -2,7 +2,7 @@ Wedding::Application.routes.draw do
   root "pages#home" #root_path
   get "bridalparty" => "pages#bridalparty" #bridalparty_path
   get "lovestory" => "pages#lovestory" #lovestory_path
-  get "registration" => "pages#registration" #registration_path
+  get "registry" => "pages#registry" #registration_path
   get "rsvp" => "pages#rsvp" #onlinersvp_path
   get "accomodations" => "pages#accomodations" #accomodations_path
   get "thingstodo" => "pages#thingstodo" #thingstodo_path
