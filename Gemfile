@@ -8,9 +8,10 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass'
+gem 'pg'
 
 group :development do
-  gem 'sqlite3'
+    gem 'pg'
 end
 
 group :production do

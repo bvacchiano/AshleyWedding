@@ -1,6 +1,28 @@
 <div class="row">
-	<center><h1><span class="glyphicon glyphicon-ok gold"></span>RSVP</h1></center>
-	<h2>
-		<center>Guests will recieve instructions to RSVP with their formal wedding invitations</center>
-	</h2>
+		<% if flash[:failure] %>
+    	<p><div class="alert alert-warning"><%= flash[:failure] %></div></p>
+    	<center>
+			<%= form_tag(submit_path, :class => 'form-inline') do %>
+				<div class="form-group">
+		  		<%= text_field_tag :password, nil, {:placeholder => 'Password', :class => 'form-control'} %>
+		  	</div>
+		  	<%= submit_tag "Submit", class: "btn btn-default" %>
+			<% end %>
+			</center>
+		<% elsif flash[:success] %>
+			<%= render 'rsvp_form' %>
+		<% else %>
+			<center><h1><span class="glyphicon glyphicon-ok gold"></span>RSVP</h1></center>
+				<h2>
+					<center>Please enter the RSVP password provided in your formal wedding invitation.</center>
+			</h2>
+			<center>
+			<%= form_tag(submit_path, :class => 'form-inline') do %>
+				<div class="form-group">
+		  		<%= text_field_tag :password, nil, {:placeholder => 'Password', :class => 'form-control'} %>
+		  	</div>
+		  	<%= submit_tag "Submit", class: "btn btn-default" %>
+			<% end %>
+		<% end %>
+	</center>
 </div>
