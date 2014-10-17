@@ -16,7 +16,7 @@ class PagesController < ApplicationController
   def weddingevents
   end
   def submit
-    if params[:password] == "boogeydowntheaisle"
+    if params[:password].downcase == "boogeydowntheaisle"
       flash[:success] = "You entered the correct password! Fill out the information below."
       redirect_to rsvp_path
     else
